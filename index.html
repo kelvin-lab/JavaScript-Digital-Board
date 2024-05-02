@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digital Board</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="canvas-container">
+      <canvas id="draw" width="800" height="800"></canvas>
+      <div class="frame top"></div>
+      <div class="frame right"></div>
+      <div class="frame bottom"></div>
+      <div class="frame left"></div>
+  </div>
+    
+
+    <div class="controls">
+      <img id="undoButton" src="./assets/undo.png" alt="Undo"/>
+      <img id="redoButton" src="./assets/redo.png" alt="Redo"/>
+      <img id="clearButton" src="./assets/delete.png" alt="Delete" />
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
